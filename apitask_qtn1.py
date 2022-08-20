@@ -2,6 +2,7 @@
 import logging as log
 from flask import Flask, request, jsonify
 
+
 import mysql.connector as connection
 log.basicConfig(filename='qtn1.log',level=log.INFO)
 try:

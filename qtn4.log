@@ -1,0 +1,21 @@
+INFO:root:Database connection successfull
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from task where user = 'shabari'' at line 1
+ERROR:apitask_qtn4:Exception on /fetch [POST]
+Traceback (most recent call last):
+  File "C:\Users\Shabari\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Shabari\anaconda3\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\Shabari\anaconda3\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\Shabari\anaconda3\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 17:39:58] "[35m[1mPOST /fetch HTTP/1.1[0m" 500 -
+INFO:root:Database connection successfull
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:('shabari', '1234')
+INFO:root:fetched records
+INFO:root:successfully closed db connection
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 17:41:32] "POST /fetch HTTP/1.1" 200 -

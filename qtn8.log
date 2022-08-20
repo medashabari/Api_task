@@ -1,0 +1,9 @@
+INFO:root:successfully connected to MongoDB
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Successfully fetched from collection
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 18:17:17] "POST /fetch HTTP/1.1" 200 -
+INFO:root:successfully connected to MongoDB
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:{'_id': ObjectId('6300d773afc48d7a67cdf09d'), 'user': 'shabari', 'password': 1234}
+INFO:root:Successfully fetched from collection
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 18:19:46] "POST /fetch HTTP/1.1" 200 -

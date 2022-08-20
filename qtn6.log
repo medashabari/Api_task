@@ -1,0 +1,4 @@
+INFO:root:successfully connected to MongoDB
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Successfully updated in collection
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 18:08:14] "POST /update HTTP/1.1" 200 -

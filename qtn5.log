@@ -1,0 +1,13 @@
+INFO:root:successfully connected to MongoDB
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Successfully inserted in collection
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 17:56:37] "POST /insert HTTP/1.1" 200 -
+INFO:root:successfully connected to MongoDB
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:successfully connected to MongoDB
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 18:07:34] "[33mPOST /update HTTP/1.1[0m" 404 -
+INFO:root:successfully connected to MongoDB
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Successfully inserted in collection
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 18:15:40] "POST /insert HTTP/1.1" 200 -

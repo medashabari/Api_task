@@ -1,0 +1,5 @@
+INFO:root:Database connection successfull
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:deleted records
+INFO:root:successfully closed db connection
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 17:30:22] "POST /delete HTTP/1.1" 200 -

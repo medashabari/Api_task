@@ -25,5 +25,20 @@ def update():
         cursor.execute("update task_sol set number=number+1000 where name=(%s)",(name,))
         mydb.commit()
         return jsonify(str('updated successfully'))
+
+
+@app.route('/delete',methods=['GET','POST'])
+def delete():
+    if request.method=='POST':
+        name_del = request.json['name_del']
+        cursor.execute("delete from task_sol where name = %s",(name_del,))
+        mydb.commit()
+        return jsonify(str("successfully deleted"))
+
+@app.route('/fetch',methods=['GET','POST'])
+def fetch():
+    cursor.execute("select * from task_sol")
+    return jsonify((cursor.fetchall()))
+
 if __name__== '__main__':
     app.run()
